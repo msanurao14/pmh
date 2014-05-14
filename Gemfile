@@ -28,7 +28,7 @@ gem 'jbuilder', '2.0.7'
 
 gem 'bootstrap-sass', '2.3.2.0' #3.1.1.1#as opposed to 2.3.2.0 recommend by M H book
 gem 'sprockets', '2.11.0'
-gem 'bcrypt-ruby'
+gem 'bcrypt-ruby', '3.1.5'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
