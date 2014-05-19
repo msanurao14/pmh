@@ -11,7 +11,9 @@ class UsersController < ApplicationController
    @user = User.new(user_params)
    
    if @user.save
-     flash[:success] = "Welcome to PMH Application!"
+     sign_in @user
+     put "I am here!"
+     flash[:success] = "ANU   Welcome to PMH Application!"
      redirect_to @user
    else
     render 'new'
